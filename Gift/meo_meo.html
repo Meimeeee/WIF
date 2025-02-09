@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love</title>
+    <style>
+        body {
+            background-color: #FFDDE2; /* Pastel Pink */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #A52A2A; /* Dark red */
+        }
+        .button-container {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+        .no-button {
+            background-color: #ee5454; /* Soft Red */
+            color: white;
+        }
+        .no-button:hover {
+            background-color: #d12b39;
+        }
+        .yes-button {
+            background-color: #3ccf50; /* Soft Green */
+            color: white;
+        }
+        .yes-button:hover {
+            background-color: #40916C;
+        }
+        .gif-container {
+            margin-top: 20px;
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Will you be mine ???</h1>
+    <div class="button-container">
+        <button class="no-button" onclick="handleNoClick()">No</button>
+        <button class="yes-button" onclick="handleYesClick()">Yes</button>
+    </div>
+    
+    <div class="gif-container">
+        <img src="https://i.pinimg.com/originals/a7/5a/59/a75a59b1116cc8282873254511f57286.gif" alt="Coding Wizard GIF">
+    </div>
+
+    <!-- Connect to JavaScript -->
+    <script src="aw.js"></script>
+</body>
+</html>
